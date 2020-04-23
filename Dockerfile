@@ -1,4 +1,4 @@
-FROM tomcat:8.0-jre8-alpine 
+FROM tomcat:openjdk:8-jdk 
 
 RUN rm -rf /usr/local/tomcat/webapps/ROOT 
 
