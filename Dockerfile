@@ -1,6 +1,4 @@
-FROM tomcat:8.0-alpine
-
-ADD setenv.sh $CATALINA_HOME/bin
+FROM tomcat:8.0-alpine 
 
 CMD ["catalina.sh", "stop"]
 
